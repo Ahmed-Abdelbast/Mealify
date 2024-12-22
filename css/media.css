@@ -1,0 +1,288 @@
+@media screen and (min-width:40rem) {
+    /* gallery */
+    .header-of-section p{
+        font-size: .9375rem;   
+    }
+    .header-of-section h2{
+        font-size: 3.125rem;    
+    }
+    .gallery{  
+        flex-direction: row;    
+    }
+    .gallery1 {
+        width: 50%;
+    }
+    .gallery1 .contain .item .layer{
+        font-size: .9375rem;
+    } 
+    .gallery-special{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }  
+    .gallery-special .contain  {
+        width: 50%;
+    }
+    .gallery-special .contain .item{
+        width: 100%;
+    }
+    /* end gallery */
+    
+}
+@media screen and (min-width: 768px) {
+
+     /* start contact */
+     .contain-contact{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contact-us{
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: .8125rem;
+    }
+    .contain-address{
+        width: 50%;
+    }
+    .address .icon{
+        font-size: 2.1875rem;
+    }
+    .personal-data{
+        flex-direction: row; 
+    }
+    .personal-data .name-input , .personal-data .email-input{
+        width: 50%;
+        /* padding: 1.25rem; */
+        padding: .9375rem;
+    } 
+    .name-input input , .email-input input , .subject .subject-input input , .message .message-input textarea{
+        padding: .9375rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    .submit .submit-form input{
+        padding: .625rem 1.875rem;
+        font-size: 1.25rem;
+    }
+    /* end contact */
+    
+    /* start footer */
+    .contain-footer{
+        width: 90%;
+        margin: 1.875rem auto;
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        font-family: var(--first-font);
+    }
+    .contain-footer .part1{
+        font-size: 1.25rem;
+        width: 30%;
+    }
+    .contain-footer .part2{
+        width: 70%;
+        margin-top: 0;
+        
+    }
+    .part2 .content-part2{
+        font-size: .625rem;
+    
+    }
+    .quik-links{
+      
+        font-size: 1.25rem;
+    }
+    .part2 .input-mail input{
+
+        font-size: 1.25rem;
+    }
+    .part2 .input-mail button{
+
+        font-size: 1.25rem;
+        padding: 1.25rem 0;
+    }
+    .contain-chefs{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 1.875rem;
+        padding-top: 1.875rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .chef-content{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .chef .content h2{
+        font-size: 1.25rem;
+    }
+    .chef .content p{
+        font-size: .9375rem;     
+    }
+    .chef .icon {
+
+        font-size: 1.25rem;
+        padding: .625rem .625rem;
+
+    }
+    .chef .icon a{
+        margin-bottom: .9375rem;
+        
+    }
+   
+
+}
+@media screen and (min-width: 64rem) {
+    
+    :root{
+        font-size: .9375rem;
+    }
+    #home{
+        height: 100vh;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+    }
+    .logo ,.right-nav{
+        width: 50%;
+    }
+    .right-nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.875rem;
+
+    }
+    .right-nav ul li::after{
+        height: .1875rem;
+    }
+    .right-nav ul .special-li::after{
+        height: .1875rem;
+        
+    }
+    .right-nav ul li:hover::after{
+        height: 3px;
+
+    
+    }
+    .right-nav ul li.special-li{
+        color: black;
+    }
+    .right-nav ul li{
+        margin-left: 20px ;
+    }
+    .right-nav ul li a{
+        font-size: 15px; 
+    }
+    .section-home{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+        align-items: center;
+        text-align: left;
+        font-size: .9375rem;
+    }
+    .image-home{
+        width: 40%;
+        order: 2;
+        
+    }
+    .content-home{
+        font-size: 1.875rem;
+        width: 50%;
+    
+    }
+    .content-home h1{
+
+        font-size: 40px;
+      
+    }
+    .content-home p{
+
+        font-size: 20px;
+      
+    }
+    .link-of-home{
+        margin-block: 1.25rem;
+        padding: .625rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .link-one {
+        width: 40%;
+    }
+    .link-tow{
+        width: 45%;
+    }
+    .link-of-home a{
+        font-size: 15px;
+       
+
+    }
+    /* chefs */
+    
+    .chef-content{
+        width: 30%;
+        margin: 0 auto;
+    }
+    /* gallery */
+    .gallery1 {
+        width: 33.33%;
+    }
+    .gallery-special{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 33.33%;
+    }  
+    .gallery-special .contain  {
+        width: 100%;
+    }
+    /* end gallery */
+    /* start footer */
+    .contain-footer .part1{
+        font-size: .9375rem;
+        width: 25%;
+    }
+    .contain-footer .part2{
+        width: 50%;   
+    }
+    .part2 .content-part2{
+        font-size: .9375rem;
+        margin-top: 0;
+    }
+    .social-media .icon{
+        margin-top: 1.25rem;
+        font-size: .9375rem;
+    }
+    .contain-footer .part3{
+        width: 25%;
+        font-size: .9375rem; 
+    }
+    .quik-links{
+        margin-block: 1.25rem;
+        font-size: .9375rem;
+    }
+    .part2 .input-mail input{
+        font-size: .9375rem;
+        padding: 1.25rem 0;
+    }
+    .part2 .input-mail button{
+        font-size: .9375rem;
+        padding: 1.25rem 0;
+    }
+    .content-part3 i{
+        font-size: 2.5rem;
+        
+    }
+    .content-part3{
+        flex-direction: column;
+    }   
+}
